@@ -1,0 +1,74 @@
+*{
+    font-family: "Open Sans", "Roboto", serif;
+}
+
+.barra-de-navegacao{
+    background-color: #c9c3e6;
+}
+
+.img-config{
+    margin-bottom: 5px;
+}
+
+.nav-link{
+    color: #333 !important;
+    transition: color 0.5s ease;
+}
+
+.nav-link:hover{
+    color: #fa7878 !important;
+}
+
+form-control:focus{
+    border-color: #fa7878 !important;
+    box-shadow: 0 0 8px rgba(250, 120, 120, 0.8) !important;
+}
+
+.btn{
+    color: #ffc5c5 !important;
+    border: 1px solid #ffc5c5 !important;
+    transition: background-color 0.10s ease, color 0.5 ease;
+}
+
+.btn:hover{
+    color: #fff !important;
+    background-color: #ffc5c5 !important;
+}
+
+.navbar-toggler{
+    border: 1px solid #ffc5c5 !important;
+    color: #ffc5c5 !important;
+}
+
+.navbar-toggler-icon {
+    filter: invert(86%) sepia(19%) saturate(490%) hue-rotate(310deg) brightness(103%) contrast(96%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flower{
+    font-size: 100px;
+    opacity: 0;
+    transition: opacity  1s ease-in-out;
+    background: transparent;
+    z-index: 1;
+}
+
+.flower.show{
+    opacity: 1;
+}
+
+.welcome-text{
+    z-index: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, position 1s ease-in-out;
+}
+
+.welcome-text.show{
+    opacity: 1;
+}
