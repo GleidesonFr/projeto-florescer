@@ -72,3 +72,46 @@ form-control:focus{
 .welcome-text.show{
     opacity: 1;
 }
+
+.img-welcome{
+    position: absolute;
+    object-fit: cover;
+    width: 1351px;
+    filter: brightness(0.8);
+    height: auto;
+    z-index: 0;
+}
+
+.message-container{
+    margin: 10%;
+    display: inline-block;
+    justify-items: center;
+    z-index: 1;
+}
+
+.text-message{
+    color: #fff;
+}
+
+.final-text{
+    color: #FFF;
+}
+
+.flowers{
+    display: flex;
+}
+
+.flower-1{
+    position: absolute;
+    display: flex;
+    margin: 1em;
+    margin-left: 4em;
+
+}
+
+.flower-2{
+    position: absolute;
+    display: flex;
+    margin: 1em;
+    margin-left: 6em;
+}
